@@ -1,5 +1,5 @@
-#ifndef NVS_H
-#define NVS_H
+#ifndef IOT_NVS_H
+#define IOT_NVS_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -42,4 +42,4 @@ nvs_delete (const char *space, const char *key);
 }
 #endif
 
-#endif // NVS_H
+#endif // IOT_NVS_H

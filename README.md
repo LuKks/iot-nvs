@@ -1,4 +1,4 @@
-# nvs
+# iot-nvs
 
 Non-Volatile Storage functions in C for IoT
 
@@ -8,7 +8,7 @@ Non-Volatile Storage functions in C for IoT
 #include <nvs_flash.h>
 #include <esp_err.h>
 
-#include "nvs.h"
+#include "iot_nvs.h"
 
 void app_main () {
   ESP_ERROR_CHECK(nvs_flash_init());
@@ -32,7 +32,7 @@ void app_main () {
 
 ## API
 
-See [`include/nvs.h`](include/nvs.h) for the public API.
+See [`include/iot_nvs.h`](include/iot_nvs.h) for the public API.
 
 ## License
 
